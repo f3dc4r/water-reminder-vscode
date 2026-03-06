@@ -1,9 +1,14 @@
 {
-  "name": "water-reminder",
-  "displayName": "Water Reminder",
+  "name": "water-reminder-vscode",
+  "displayName": "Water Reminder for VSCode",
   "description": "Reminds you to drink water while coding",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "f3dc4r",
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#E8F4FD",
+    "theme": "light"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/f3dc4r/water-reminder-vscode"
