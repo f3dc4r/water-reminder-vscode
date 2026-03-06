@@ -1,0 +1,57 @@
+{
+  "name": "water-reminder",
+  "displayName": "Water Reminder",
+  "description": "Reminds you to drink water while coding",
+  "version": "1.0.0",
+  "publisher": "f3dc4r",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/f3dc4r/water-reminder-vscode"
+  },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "water",
+    "reminder",
+    "health",
+    "productivity",
+    "hydration"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "configuration": {
+      "title": "Water Reminder",
+      "properties": {
+        "waterReminder.enabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable or disable the water reminder"
+        },
+        "waterReminder.intervalMinutes": {
+          "type": "number",
+          "default": 30,
+          "minimum": 1,
+          "maximum": 480,
+          "description": "Reminder interval in minutes"
+        }
+      }
+    },
+    "commands": [
+      {
+        "command": "waterReminder.openSettings",
+        "title": "Water Reminder: Open Settings"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pret
