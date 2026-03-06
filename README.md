@@ -8,10 +8,10 @@ A VS Code extension that reminds you to drink water while coding.
 ![Status bar](images/screenshot01.png)
 
 ### Notification
-![Notification](images/screenshot02.png)
+![Notification](images/screenshot03.png)
 
 ### Settings
-![Settings](images/screenshot03.png)
+![Settings](images/screenshot02.png)
 
 ## Features
 - 💧 Water drop icon in the status bar (bottom right)
