@@ -2,7 +2,7 @@
   "name": "water-reminder-vscode",
   "displayName": "Water Reminder for VSCode",
   "description": "Reminds you to drink water while coding",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "f3dc4r",
   "icon": "images/icon.png",
   "galleryBanner": {
