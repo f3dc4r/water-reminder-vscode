@@ -2,6 +2,10 @@
 
 A VS Code extension that reminds you to drink water while coding.
 
+## 📖 Read the story
+I wrote an article about how I built this plugin and ported it to VS Code:
+[I built a water reminder plugin for JetBrains and VS Code — here's how and why](https://dev.to/f3dc4r/i-built-a-water-reminder-plugin-for-jetbrains-and-vs-code-heres-how-and-why-1ac9)
+
 ## Screenshots
 
 ### Status bar icon
